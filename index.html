@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Invaders</title>
+    <link rel="shortcut icon" href="#" />
+    <style>
+      canvas {
+        box-shadow: black 20px 10px 50px;
+      }
+      h1 {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 2.9em;
+        font-family: "Georgia (serif)";
+      }
+      body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        height: 100vh;
+        background-image:url(https://img.freepik.com/free-vector/winter-light-blue-gradient-vector-background_53876-126054.jpg?w=900&t=st=1662817790~exp=1662818390~hmac=2c50a23650afa2d0d8d71dc0a49260f7254f0af9aa1460653d72f8f54642e5b7);
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Space Invaders Using Javascript</h1>
+    <canvas id="game"></canvas>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="Bullet.js"></script>
+    <script type="module" src="BulletController.js"></script>
+    <script type="module" src="Enemy.js"></script>
+    <script type="module" src="EnemyController.js"></script>
+    <script type="module" src="MovingDirection.js"></script>
+    <script type="module" src="Player.js"></script>
+  </body>
+</html>
