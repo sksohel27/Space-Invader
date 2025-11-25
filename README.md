@@ -1,8 +1,7 @@
 # Space Invaders - JavaScript Edition
 
-![Space Invaders Gameplay](image2.png)  
+![Space Invaders Gameplay](https://raw.githubusercontent.com/sksohel27/Space-Invader/main/Screenshot%202025-11-26%20045149.png)  
 *A classic arcade shooter recreated from scratch using vanilla JavaScript! Defend Earth from waves of alien invaders.*
-
 **Space Invaders** is a fully functional clone of the iconic 1978 arcade game, built entirely with **HTML5**, **CSS3**, and **vanilla JavaScript** (no frameworks or libraries like Phaser or Three.js). It features smooth animations, collision detection, sound effects, and escalating difficulty—perfect for learning game development fundamentals.
 
 Play it live by opening `index.html` in your browser!
